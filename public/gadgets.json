@@ -1,0 +1,201 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "Laptop Pro 15",
+        "product_image": "https://i.ibb.co.com/g3fxcMY/kari-shea-1-SAnr-Ixw5-OY-unsplash.jpg",
+        "category": "Laptop",
+        "price": 1299.99,
+        "description": "A premium laptop with high-end specs, ideal for professionals and creatives.",
+        "Specification": [
+            "15.6-inch 4K display",
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "NVIDIA GTX 1650"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 2,
+        "product_title": "Laptop Flex 14",
+        "product_image": "https://i.ibb.co.com/wBPH74r/anthony-choren-4-C4jc-OLo-Spc-unsplash.jpg",
+        "category": "Laptop",
+        "price": 899.99,
+        "description": "Versatile laptop with 360-degree hinge and touchscreen functionality.",
+        "Specification": [
+            "14-inch Full HD touchscreen",
+            "Intel Core i5",
+            "8GB RAM",
+            "256GB SSD",
+            "2-in-1 convertible design"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 3,
+        "product_title": "Gaming Laptop Nitro 5",
+        "product_image": "https://i.ibb.co.com/NCPwDxB/female-hand-typing-keyboard-laptop.jpg",
+        "category": "Laptop",
+        "price": 1099.99,
+        "description": "Gaming laptop with powerful graphics card and fast refresh rate.",
+        "Specification": [
+            "15.6-inch Full HD display",
+            "AMD Ryzen 5",
+            "16GB RAM",
+            "512GB SSD",
+            "NVIDIA GeForce GTX 1660 Ti"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 4,
+        "product_title": "Laptop UltraBook 13",
+        "product_image": "https://i.ibb.co.com/x32Z295/laptop-device-with-minimalist-monochrome-background.jpg",
+        "category": "Laptop",
+        "price": 799.99,
+        "description": "Lightweight and compact laptop with long battery life.",
+        "Specification": [
+            "13.3-inch Full HD display",
+            "Intel Core i5",
+            "8GB RAM",
+            "256GB SSD",
+            "Up to 12 hours battery life"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": 5,
+        "product_title": "Wireless Earbuds S5",
+        "product_image": "https://i.ibb.co.com/p3WJW3Z/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg",
+        "category": "Accessories",
+        "price": 59.99,
+        "description": "Compact wireless earbuds with superior sound quality and noise cancellation.",
+        "Specification": [
+            "Bluetooth 5.0",
+            "Noise cancellation",
+            "6-hour battery life",
+            "IPX4 water resistance"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 6,
+        "product_title": "Portable Charger 20000mAh",
+        "product_image": "https://i.ibb.co.com/yfQwXsx/powerbank-cellphone-wooden-table.jpg",
+        "category": "Accessories",
+        "price": 34.99,
+        "description": "High-capacity portable charger for fast charging on the go.",
+        "Specification": [
+            "20000mAh capacity",
+            "Dual USB output",
+            "LED power indicator",
+            "Fast charging support"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 7,
+        "product_title": "Bluetooth Speaker XBlast",
+        "product_image": "https://i.ibb.co.com/1bDPk5q/view-horizontal-bluetooth-speaker-with-simple-minimal-modern-design.jpg",
+        "category": "Accessories",
+        "price": 59.99,
+        "description": "Portable Bluetooth speaker with powerful bass and waterproof design.",
+        "Specification": [
+            "20W output",
+            "IPX7 waterproof",
+            "Bluetooth 5.0",
+            "12-hour battery life"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 8,
+        "product_title": "Smartphone X200",
+        "product_image": "https://i.ibb.co.com/92rT5Gd/phone-14-right-side-arabic-themed-background.jpg",
+        "category": "Phone",
+        "price": 699.99,
+        "description": "A high-performance smartphone with a sleek design and powerful camera.",
+        "Specification": [
+            "6.5-inch OLED display",
+            "128GB storage",
+            "Triple-lens camera",
+            "4000mAh battery",
+            "5G support"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 9,
+        "product_title": "Smartphone Ultra S",
+        "product_image": "https://i.ibb.co.com/McKcsL3/daniel-romero-ai-UAx-BNe3-Xk-unsplash.jpg",
+        "category": "Phone",
+        "price": 799.99,
+        "description": "Flagship smartphone with a stunning display and advanced camera features.",
+        "Specification": [
+            "6.8-inch AMOLED display",
+            "256GB storage",
+            "Quad-lens camera",
+            "4500mAh battery",
+            "5G support"
+        ],
+        "availability": false,
+        "rating": 4.7
+    },
+    {
+        "product_id": 10,
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/Cnrhm4T/jonathan-kemper-Yfy-DNZSe-Gbg-unsplash.jpg",
+        "category": "MacBook",
+        "price": 999.99,
+        "description": "Lightweight and powerful, featuring the latest Apple M2 chip for enhanced performance.",
+        "Specification": [
+            "13.3-inch Retina display",
+            "Apple M2 chip",
+            "8GB RAM",
+            "256GB SSD",
+            "Up to 18 hours of battery life"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 11,
+        "product_title": "Smart Watch Fit Tracker",
+        "product_image": "https://i.ibb.co.com/CVmrVwX/rendering-smart-home-device.jpg",
+        "category": "Smart Watch",
+        "price": 149.99,
+        "description": "A sleek smartwatch with fitness tracking and heart rate monitoring.",
+        "Specification": [
+            "1.3-inch AMOLED display",
+            "Heart rate monitor",
+            "GPS tracking",
+            "Water-resistant (5 ATM)"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 12,
+        "product_title": "Smart Watch Series 6",
+        "product_image": "https://i.ibb.co.com/8dxKzQ6/rendering-smart-home-device-1.jpg",
+        "category": "Smart Watch",
+        "price": 349.99,
+        "description": "Advanced smartwatch with health monitoring and always-on display.",
+        "Specification": [
+            "1.5-inch Retina display",
+            "Blood oxygen sensor",
+            "ECG monitoring",
+            "Water-resistant (5 ATM)"
+        ],
+        "availability": false,
+        "rating": 4.8
+    }
+]
