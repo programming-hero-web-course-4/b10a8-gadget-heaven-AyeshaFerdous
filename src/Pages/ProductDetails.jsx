@@ -3,6 +3,7 @@ import ReactStars from "react-rating-stars-component";
 import { useEffect, useState } from "react";
 import { IoIosCart } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
+import { addProduct } from "../Utility/Storage";
 
 
 const ProductDetails = () => {
@@ -18,6 +19,10 @@ const ProductDetails = () => {
     },[id,data])
     
     const {product_title,product_image,price,availability,description,Specification,rating}= product;
+
+    const handleCart = product =>{
+     addProduct(product)
+  }
     return (
         <div>
             <div className="bg-[#9538E2] text-white pb-48 relative mb-96">
@@ -70,7 +75,7 @@ const ProductDetails = () => {
 
         
             <div className="flex gap-4 items-center">
-            <button className="flex items-center gap-3 bg-[#9538E2] text-white btn rounded-full hover:text-black">Add to Cart  <IoIosCart/></button>
+            <button onClick={()=>handleCart(product)} className="flex items-center gap-3 bg-[#9538E2] text-white btn rounded-full hover:text-black">Add to Cart  <IoIosCart/></button>
 
               <button className="btn text-xl rounded-full"><CiHeart/></button>
 
