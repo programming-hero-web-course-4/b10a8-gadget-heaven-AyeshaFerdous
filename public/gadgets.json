@@ -149,25 +149,9 @@
         "availability": false,
         "rating": 4.7
     },
+    
     {
         "product_id": 10,
-        "product_title": "MacBook Air M2",
-        "product_image": "https://i.ibb.co.com/Cnrhm4T/jonathan-kemper-Yfy-DNZSe-Gbg-unsplash.jpg",
-        "category": "MacBook",
-        "price": 999.99,
-        "description": "Lightweight and powerful, featuring the latest Apple M2 chip for enhanced performance.",
-        "Specification": [
-            "13.3-inch Retina display",
-            "Apple M2 chip",
-            "8GB RAM",
-            "256GB SSD",
-            "Up to 18 hours of battery life"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": 11,
         "product_title": "Smart Watch Fit Tracker",
         "product_image": "https://i.ibb.co.com/CVmrVwX/rendering-smart-home-device.jpg",
         "category": "Smart Watch",
@@ -183,7 +167,7 @@
         "rating": 4.6
     },
     {
-        "product_id": 12,
+        "product_id": 11,
         "product_title": "Smart Watch Series 6",
         "product_image": "https://i.ibb.co.com/8dxKzQ6/rendering-smart-home-device-1.jpg",
         "category": "Smart Watch",
