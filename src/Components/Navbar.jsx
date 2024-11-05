@@ -1,9 +1,15 @@
 import React from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
+import { getAllCartProduct, getAllWishlistProduct } from "../Utility/Storage";
 const Navbar = () => {
   const {pathname} = useLocation();
+   
+  const cart = getAllCartProduct();
+  const wishlist = getAllWishlistProduct();
 
+
+  
   return (
     <div className={`navbar  px-12 ${pathname === "/" ? "bg-[#9538E2]  text-white rounded-tl-3xl rounded-tr-3xl" : "text-black bg-white"}`}>
       <div className="navbar-start">
@@ -72,7 +78,7 @@ const Navbar = () => {
               strokeWidth="2"
               d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
-          <span className="badge badge-sm indicator-item"></span>
+          {cart.length > 0 && <span className="badge badge-sm indicator-item">{cart.length}</span>}
         </div>
       </div>
       <div
@@ -95,7 +101,7 @@ const Navbar = () => {
           
           <CiHeart className="text-2xl font-extrabold"/>
          
-          <span className="badge badge-sm indicator-item"></span>
+          {wishlist.length > 0 && <span className="badge badge-sm indicator-item">{wishlist.length}</span>}
         </div>
       </div>
       <div

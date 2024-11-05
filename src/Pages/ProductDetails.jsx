@@ -3,7 +3,7 @@ import ReactStars from "react-rating-stars-component";
 import { useEffect, useState } from "react";
 import { IoIosCart } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
-import { addCartProduct,addWishlistProduct } from "../Utility/Storage";
+import { addCartProduct,addWishlistProduct, getAllWishlistProduct } from "../Utility/Storage";
 
 
 const ProductDetails = () => {
@@ -12,10 +12,17 @@ const ProductDetails = () => {
     const {id} = useParams()
     
     const [product, setProduct]= useState([]);
+    const [isDisable, setIsDisable] = useState(false); 
+
 
     useEffect(()=>{
         const singleData = data.find(product => product.product_id == id);
-        setProduct(singleData)
+        setProduct(singleData);
+        const disableButton = getAllWishlistProduct();
+        const isExist = disableButton.find(item=> item.product_id == product.product_id);
+        if(isExist){
+          setIsDisable(true)
+        }
     },[id,data])
     
     const {product_title,product_image,price,availability,description,Specification,rating}= product;
@@ -26,7 +33,10 @@ const ProductDetails = () => {
 
   const handleWishlist = product => {
     addWishlistProduct(product)
+    setIsDisable(true)
   }
+
+  
     return (
         <div>
             <div className="bg-[#9538E2] text-white pb-48 relative mb-96">
@@ -79,9 +89,11 @@ const ProductDetails = () => {
 
         
             <div className="flex gap-4 items-center">
-            <button onClick={()=>handleCart(product)} className="flex items-center gap-3 bg-[#9538E2] text-white btn rounded-full hover:text-black">Add to Cart  <IoIosCart/></button>
+            <button onClick={()=>
+              handleCart(product) 
+             } className="flex items-center gap-3 bg-[#9538E2] text-white btn rounded-full hover:text-black">Add to Cart  <IoIosCart/></button>
 
-              <button onClick={()=>handleWishlist(product)} className="btn text-xl rounded-full"><CiHeart/></button>
+              <button disabled={isDisable} onClick={()=>handleWishlist(product)} className="btn text-xl rounded-full"><CiHeart/></button>
 
             </div>
        

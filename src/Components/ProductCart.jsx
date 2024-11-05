@@ -22,6 +22,8 @@ const ProductCart = ({product, handleRemove}) => {
                   {description}
                 </p>
                 <p className="text-slate-700 font-semibold">Price : ${price}</p>
+
+                
               </div>
             </div>
 

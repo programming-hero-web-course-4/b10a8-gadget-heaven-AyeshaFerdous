@@ -22,6 +22,7 @@ const ProductWishlist = ({product, handlewishlistRemove}) => {
               {description}
             </p>
             <p className="text-slate-700 font-semibold">Price : ${price}</p>
+            <button className="border rounded-full px-5 py-1 font-bold btn bg-[#9538E2] mt-3">Add To Cart</button>
           </div>
         </div>
 

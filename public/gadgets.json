@@ -4,7 +4,7 @@
         "product_title": "Laptop Pro 15",
         "product_image": "https://i.ibb.co.com/g3fxcMY/kari-shea-1-SAnr-Ixw5-OY-unsplash.jpg",
         "category": "Laptop",
-        "price": 1299.99,
+        "price": 1299,
         "description": "A premium laptop with high-end specs, ideal for professionals and creatives.",
         "Specification": [
             "15.6-inch 4K display",
@@ -21,7 +21,7 @@
         "product_title": "Laptop Flex 14",
         "product_image": "https://i.ibb.co.com/wBPH74r/anthony-choren-4-C4jc-OLo-Spc-unsplash.jpg",
         "category": "Laptop",
-        "price": 899.99,
+        "price": 899,
         "description": "Versatile laptop with 360-degree hinge and touchscreen functionality.",
         "Specification": [
             "14-inch Full HD touchscreen",
@@ -38,7 +38,7 @@
         "product_title": "Gaming Laptop Nitro 5",
         "product_image": "https://i.ibb.co.com/NCPwDxB/female-hand-typing-keyboard-laptop.jpg",
         "category": "Laptop",
-        "price": 1099.99,
+        "price": 1099,
         "description": "Gaming laptop with powerful graphics card and fast refresh rate.",
         "Specification": [
             "15.6-inch Full HD display",
@@ -55,7 +55,7 @@
         "product_title": "Laptop UltraBook 13",
         "product_image": "https://i.ibb.co.com/x32Z295/laptop-device-with-minimalist-monochrome-background.jpg",
         "category": "Laptop",
-        "price": 799.99,
+        "price": 799,
         "description": "Lightweight and compact laptop with long battery life.",
         "Specification": [
             "13.3-inch Full HD display",
@@ -72,7 +72,7 @@
         "product_title": "Wireless Earbuds S5",
         "product_image": "https://i.ibb.co.com/p3WJW3Z/wireless-earbuds-with-neon-cyberpunk-style-lighting.jpg",
         "category": "Accessories",
-        "price": 59.99,
+        "price": 59,
         "description": "Compact wireless earbuds with superior sound quality and noise cancellation.",
         "Specification": [
             "Bluetooth 5.0",
@@ -88,7 +88,7 @@
         "product_title": "Portable Charger 20000mAh",
         "product_image": "https://i.ibb.co.com/yfQwXsx/powerbank-cellphone-wooden-table.jpg",
         "category": "Accessories",
-        "price": 34.99,
+        "price": 50,
         "description": "High-capacity portable charger for fast charging on the go.",
         "Specification": [
             "20000mAh capacity",
@@ -104,7 +104,7 @@
         "product_title": "Bluetooth Speaker XBlast",
         "product_image": "https://i.ibb.co.com/1bDPk5q/view-horizontal-bluetooth-speaker-with-simple-minimal-modern-design.jpg",
         "category": "Accessories",
-        "price": 59.99,
+        "price": 59,
         "description": "Portable Bluetooth speaker with powerful bass and waterproof design.",
         "Specification": [
             "20W output",
@@ -120,7 +120,7 @@
         "product_title": "Smartphone X200",
         "product_image": "https://i.ibb.co.com/92rT5Gd/phone-14-right-side-arabic-themed-background.jpg",
         "category": "Phone",
-        "price": 699.99,
+        "price": 699,
         "description": "A high-performance smartphone with a sleek design and powerful camera.",
         "Specification": [
             "6.5-inch OLED display",
@@ -137,7 +137,7 @@
         "product_title": "Smartphone Ultra S",
         "product_image": "https://i.ibb.co.com/McKcsL3/daniel-romero-ai-UAx-BNe3-Xk-unsplash.jpg",
         "category": "Phone",
-        "price": 799.99,
+        "price": 799,
         "description": "Flagship smartphone with a stunning display and advanced camera features.",
         "Specification": [
             "6.8-inch AMOLED display",
@@ -155,7 +155,7 @@
         "product_title": "Smart Watch Fit Tracker",
         "product_image": "https://i.ibb.co.com/CVmrVwX/rendering-smart-home-device.jpg",
         "category": "Smart Watch",
-        "price": 149.99,
+        "price": 149,
         "description": "A sleek smartwatch with fitness tracking and heart rate monitoring.",
         "Specification": [
             "1.3-inch AMOLED display",
@@ -171,7 +171,7 @@
         "product_title": "Smart Watch Series 6",
         "product_image": "https://i.ibb.co.com/8dxKzQ6/rendering-smart-home-device-1.jpg",
         "category": "Smart Watch",
-        "price": 349.99,
+        "price": 349,
         "description": "Advanced smartwatch with health monitoring and always-on display.",
         "Specification": [
             "1.5-inch Retina display",
