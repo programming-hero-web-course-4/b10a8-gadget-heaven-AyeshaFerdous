@@ -8,6 +8,7 @@ import Dashboard from "../Pages/Dashboard";
 import Products from "../Components/Products";
 import ProductDetails from "../Pages/ProductDetails";
 import ProductCarts from "../Components/ProductCarts";
+import ProductWishlists from "../Components/ProductWishlists";
 
 
 const router = createBrowserRouter([
@@ -50,7 +51,16 @@ const router = createBrowserRouter([
               {
                 path:'/dashboard',
             element: <ProductCarts/>
+              },
+              {
+                path: '/dashboard/cart',
+                element: <ProductCarts/>
+              },
+              {
+                path: '/dashboard/wishlist',
+                element: <ProductWishlists/>
               }
+
             ]
         },
       ]

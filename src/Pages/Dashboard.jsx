@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
 
@@ -16,11 +16,16 @@ const Dashboard = () => {
               it all!
             </p>
             <div className="flex items-center  justify-center gap-6">
-            <button  className="btn text-[#9538E2] px-10 py-1 bg-white rounded-full">
-               Cart
+            <button>
+              <NavLink className={({isActive}) => `btn  border px-10 py-1 rounded-full font-bold ${isActive?'bg-white text-[#9538E2]' : 'hover:bg-[#9538E2] hover:text-white'}`}
+          to={'/dashboard/cart'}>
+              Cart
+              </NavLink>
+              
             </button>
-            <button className="btn text-[#9538E2] px-10 py-1 bg-white rounded-full">
-              Whishlist
+            <button>
+              <NavLink className={({isActive}) => `btn  border px-10 py-1 rounded-full font-bold ${isActive?' bg-white text-[#9538E2]' : 'hover:bg-[#9538E2] hover:text-white'}`}
+          to={'/dashboard/wishlist'}>Wishlist</NavLink>
             </button>
             </div>
           </div>

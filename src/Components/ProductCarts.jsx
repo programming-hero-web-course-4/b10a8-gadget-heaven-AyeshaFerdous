@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { getAllProduct, removeProduct } from '../Utility/Storage';
+import { getAllCartProduct, removeCartProduct } from '../Utility/Storage';
 import ProductCart from './ProductCart';
 
 const ProductCarts = () => {
     const [products, setProducts] = useState([]);
     useEffect(()=>{
-        const cart = getAllProduct();
+        const cart = getAllCartProduct();
         setProducts(cart)
     },[])
   
     const handleRemove = id =>{
-      removeProduct(id)
-      const cart = getAllProduct();
+      removeCartProduct(id)
+      const cart = getAllCartProduct();
        setProducts(cart)
     }
     return (
