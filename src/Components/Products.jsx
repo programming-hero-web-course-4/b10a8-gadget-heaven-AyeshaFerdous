@@ -30,7 +30,7 @@ const Products = () => {
     
     return (
           
-             <div className='grid grid-cols-3 gap-6'>
+             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
             {
                notFound ? (
                 <p className='text-2xl font-bold text-zinc-700 text-center'>No Products Found for this selected Category!!!</p>

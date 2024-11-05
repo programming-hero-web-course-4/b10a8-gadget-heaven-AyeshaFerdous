@@ -181,5 +181,73 @@
         ],
         "availability": false,
         "rating": 4.8
+    },
+    {
+        "product_id": 12,
+        "product_title": "Phone Max 11",
+        "product_image": "https://i.ibb.co.com/1sgyCzP/new-people-tablet-background-phone.jpg",
+        "category": "Phone",
+        "price": 899,
+        "description": "High-end smartphone with a large display and exceptional camera quality.",
+        "Specification": [
+            "6.7-inch Super Retina XDR display",
+            "128GB storage",
+            "Triple-lens 12MP camera system",
+            "A15 Bionic chip",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 13,
+        "product_title": "Phone Lite A5",
+        "product_image": "https://i.ibb.co.com/54ykBps/cell-phone-shopping-cart-online-shopping-mobile-shopping-concept.jpg",
+        "category": "Phone",
+        "price": 499,
+        "description": "Affordable smartphone with a strong focus on battery life and performance.",
+        "Specification": [
+            "6.3-inch Full HD+ display",
+            "64GB storage",
+            "Dual-lens 48MP + 5MP camera",
+            "4500mAh battery",
+            "Snapdragon 720G"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": 14,
+        "product_title": "Phone Plus Z",
+        "product_image": "https://i.ibb.co.com/N73GGNM/jakob-owens-R-8-Kkjaztn0-unsplash.jpg",
+        "category": "Phone",
+        "price": 749,
+        "description": "Premium smartphone with cutting-edge features and a sleek design.",
+        "Specification": [
+            "6.4-inch AMOLED display",
+            "128GB storage",
+            "Quad-lens 64MP + 12MP + 5MP + 5MP camera",
+            "5000mAh battery",
+            "Exynos 980"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 15,
+        "product_title": "Phone Compact Mini",
+        "product_image": "https://i.ibb.co.com/BqgpNY6/mika-baumeister-Ds-Jw-V-Wz-4-unsplash.jpg",
+        "category": "Phone",
+        "price": 399,
+        "description": "Compact smartphone designed for one-handed use, without compromising on performance.",
+        "Specification": [
+            "5.8-inch OLED display",
+            "64GB storage",
+            "12MP + 12MP dual camera",
+            "3100mAh battery",
+            "A13 Bionic chip"
+        ],
+        "availability": false,
+        "rating": 4.3
     }
 ]
