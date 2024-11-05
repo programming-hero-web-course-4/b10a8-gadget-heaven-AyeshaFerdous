@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Categories = ({ categories }) => {
   return (
-    <div className="flex flex-wrap lg:flex-col items-center justify-center gap-6 p-5 border rounded-xl">
+    <div className="flex flex-col items-center  gap-6 p-5 border rounded-xl">
       {categories.map((category) => (
        
           <NavLink
