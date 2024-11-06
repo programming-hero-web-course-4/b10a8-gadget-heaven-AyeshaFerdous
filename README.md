@@ -3,7 +3,7 @@
 Welcome to **GadgetHaven**, a responsive e-commerce platform designed for gadget enthusiasts! Built with React, GadgetHaven provides a sleek and interactive shopping experience with essential e-commerce features.
 
 ## 📍 Live Website
-Check out the live website here: [GadgetHaven](https://example.com)
+Check out the live website here: https://gadgets-site.surge.sh/
 
 ## 📄 Requirement Document
 For full project requirements, refer to the [Requirement Document](https://example.com/requirements)
