@@ -9,7 +9,7 @@ import Products from "../Components/Products";
 import ProductDetails from "../Pages/ProductDetails";
 import ProductCarts from "../Components/ProductCarts";
 import ProductWishlists from "../Components/ProductWishlists";
-import FAQ from "../Pages/FAQ";
+import AboutUs from "../Pages/AboutUs";
 
 
 const router = createBrowserRouter([
@@ -66,8 +66,8 @@ const router = createBrowserRouter([
             ]
         },
         {
-          path:'/faq',
-          element:<FAQ/>
+          path:'/aboutus',
+          element:<AboutUs/>
         }
       ]
     },
