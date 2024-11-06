@@ -35,5 +35,3 @@ For full project requirements, refer to the [Requirement Document](https://examp
 - **Robust Error Handling**: Built-in handling for empty states, price limits, and reloads to ensure a smooth experience.
 
 ---
-
-This README.md file provides a clear and organized structure for developers and users. Make sure to replace placeholders like the live website link with your actual URLs.

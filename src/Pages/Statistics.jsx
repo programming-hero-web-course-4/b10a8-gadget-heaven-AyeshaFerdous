@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import {
   ComposedChart,
   Line,
@@ -61,6 +62,10 @@ const Statistics = () => {
     
     return (
 
+        <div>
+          <Helmet>
+            <title>Statistics || Gadgets Heaven</title>
+          </Helmet>
         <div className='flex justify-center items-center'>
 
     
@@ -87,6 +92,7 @@ const Statistics = () => {
           <Scatter dataKey="cnt" fill="red" />
         </ComposedChart>
       
+        </div>
         </div>
 
     

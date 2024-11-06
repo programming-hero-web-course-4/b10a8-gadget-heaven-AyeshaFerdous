@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { NavLink, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
@@ -6,6 +7,9 @@ const Dashboard = () => {
    
   return (
     <div>
+      <Helmet>
+       <title> Dashboard || Gadgets Heaven</title>
+      </Helmet>
       <div className="bg-[#9538E2] text-white ">
         <div className="hero-content text-center">
           <div className="max-w-2xl">

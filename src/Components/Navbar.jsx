@@ -2,6 +2,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CiHeart } from "react-icons/ci";
 import { getAllCartProduct, getAllWishlistProduct } from "../Utility/Storage";
+import { Helmet } from "react-helmet";
 
 
 const Navbar = () => {
@@ -28,7 +29,11 @@ const Navbar = () => {
   const wishlists = getAllWishlistProduct();
 
   return (
-    <div
+  <div>
+    <Helmet>
+      <title>Home || Gadgets Heaven</title>
+    </Helmet>
+      <div
       className={`px-4 ${
         pathname === "/"
           ? "bg-[#9538E2] text-white rounded-tl-xl rounded-tr-xl"
@@ -100,6 +105,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
