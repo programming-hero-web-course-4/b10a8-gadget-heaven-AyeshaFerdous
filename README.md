@@ -6,7 +6,7 @@ Welcome to **GadgetHaven**, a responsive e-commerce platform designed for gadget
 Check out the live website here: https://gadgets-site.surge.sh/
 
 ## 📄 Requirement Document
-For full project requirements, refer to the [Requirement Document](https://example.com/requirements)
+For full project requirements, refer to the https://drive.google.com/file/d/1w-LKW8NVPElIdOm3NAkXTrKEcn1kAFTX/view?usp=drive_link
 
 ---
 
@@ -14,7 +14,7 @@ For full project requirements, refer to the [Requirement Document](https://examp
 
 - **Functional Components**: Used throughout the project to break down the UI into reusable parts.
 - **React Hooks**: Includes `useState`, `useEffect`, and `useContext` to handle component state and lifecycle events.
-- **Context API**: Utilized for managing the cart and wishlist, providing global state access across components.
+
 - **React Router**: Enables smooth navigation between pages such as Home, Product Details, Cart, and Wishlist.
 - **Conditional Rendering**: Renders UI based on conditions like empty cart or filtered results, enhancing user experience.
 
